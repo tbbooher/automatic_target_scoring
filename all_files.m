@@ -12,8 +12,6 @@ R = bwdist(M);
 template = (R < radius+1); %& (R > radius-1));
 
 %% run all files
-
-
 for i = 1:length(fls)
     close all;
     [filepath,shortname,ext] = fileparts(fls(i).name);
