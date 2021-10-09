@@ -1,7 +1,7 @@
 function img_reg = register_target(fileName)
 close all;
 I = rgb2gray(imread(fileName));
-fixed = rgb2gray(imread('C:\Users\tim\Dropbox\Transfer Folder\Image Registration\files\fixed.jpg'));
+fixed = rgb2gray(imread('C:\Users\tim\Dropbox\Transfer Folder\Image Registration\utilities\fixed.jpg'));
 center_fixed = [1665,1720]; % pre-processed
 center_moving = find_center(I)
 % figure;
